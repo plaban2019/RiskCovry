@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4b0105-8e90-4373-9b5e-1788ea33e294" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utility/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RiskCovry_execution_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/AgeSelectObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/HealthCardObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase/AgeSelectTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase/HealthCardTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase/HomeScreenTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utility/ExtentConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utility/ExtentReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/HomeScreenPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomeScreenObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utility/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +53,96 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utility" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Driver" />
+      <recent name="$PROJECT_DIR$/src/test/java/Utility" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/plaban/Documents/RiskCovry/testng.xml">
+    <configuration name="HomeScreenTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RiskCovry" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.HomeScreenTestCase" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeScreenTestCase.homeScreenTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RiskCovry" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.HomeScreenTestCase" />
+      <option name="METHOD_NAME" value="homeScreenTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/plaban/Documents/RiskCovry/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RiskCovry" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <useClassPathOnly />
       <option name="SUITE_NAME" value="" />
@@ -69,6 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/plaban/Documents/RiskCovry/testng.xml" />
+        <item itemvalue="TestNG.HomeScreenTestCase" />
+        <item itemvalue="TestNG.HomeScreenTestCase.homeScreenTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,19 +180,90 @@
       <option name="presentableId" value="Default" />
       <updated>1643633335422</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;added driver manager and testng.xml file&quot;">
+      <created>1643641932817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643641932817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="&quot;added driver manager and testng.xml file&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added driver manager and testng.xml file&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="64" key="#Project_Structure" timestamp="1643633710825">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1643633710825" />
-    <state x="295" y="231" key="com.intellij.ide.util.TipDialog" timestamp="1643638913750">
+    <state x="387" y="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1643649585319">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="295" y="231" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1643638913750" />
+    <state x="387" y="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1643649585319" />
+    <state x="269" y="2" key="CommitChangelistDialog2" timestamp="1643641932426">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="269" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1643641932426" />
+    <state width="1236" height="212" key="GridCell.Tab.0.bottom" timestamp="1643695512283">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643695512283" />
+    <state width="1236" height="212" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1643651313807" />
+    <state width="1236" height="212" key="GridCell.Tab.0.center" timestamp="1643695512282">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1643695512282" />
+    <state width="1236" height="212" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1643651313806" />
+    <state width="1236" height="212" key="GridCell.Tab.0.left" timestamp="1643695512281">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1643695512281" />
+    <state width="1236" height="212" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1643651313805" />
+    <state width="1236" height="212" key="GridCell.Tab.0.right" timestamp="1643695512282">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1643695512282" />
+    <state width="1236" height="212" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1643651313807" />
+    <state width="1236" height="263" key="GridCell.Tab.1.bottom" timestamp="1643648625668">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643648625668" />
+    <state width="1236" height="263" key="GridCell.Tab.1.center" timestamp="1643648625667">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1643648625667" />
+    <state width="1236" height="263" key="GridCell.Tab.1.left" timestamp="1643648625667">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1643648625667" />
+    <state width="1236" height="263" key="GridCell.Tab.1.right" timestamp="1643648625667">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1643648625667" />
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1643641945867">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1643641945867" />
+    <state x="295" y="231" key="com.intellij.ide.util.TipDialog" timestamp="1643648682654">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="295" y="231" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1643648682654" />
   </component>
 </project>

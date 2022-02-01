@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="RiskCovry">
 <test verbose="2" preserve-order="true" name="RiskCovry UseCase">
-<parameter name="browser"  value="chrome"/>
+<parameter name="Browser"  value="chrome"/>
     <classes>
-        <class name="TestCase."/>
-        <class name="TestCase."/>
+        <class name="TestCase.HomeScreenTestCase"/>
+        <!--<class name="TestCase."/>-->
     </classes>
 
 </test>
