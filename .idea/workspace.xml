@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4b0105-8e90-4373-9b5e-1788ea33e294" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RiskCovry_execution_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/AgeSelectObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/HealthCardObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase/AgeSelectTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase/HealthCardTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCase/HomeScreenTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utility/ExtentConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utility/ExtentReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/HomeScreenPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomeScreenObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utility/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RiskCovry_execution_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/RiskCovry_execution_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/AgeSelectObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/AgeSelectObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/HealthCardObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/HealthCardObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase/AgeSelectTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase/HealthCardTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase/HomeScreenTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase/RiskCovryTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utility/ExtentConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/ExtentConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utility/ExtentReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/ExtentReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +68,7 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/plaban/Documents/RiskCovry/testng.xml">
-    <configuration name="HomeScreenTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RiskCovryTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RiskCovry" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -82,7 +79,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="TestCase" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.HomeScreenTestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.RiskCovryTestCase" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -97,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeScreenTestCase.homeScreenTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RiskCovryTestCase.homePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RiskCovry" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -108,7 +105,34 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="TestCase" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.HomeScreenTestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.RiskCovryTestCase" />
+      <option name="METHOD_NAME" value="homePageTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiskCovryTestCase.homeScreenTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RiskCovry" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.RiskCovryTestCase" />
       <option name="METHOD_NAME" value="homeScreenTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -164,8 +188,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/plaban/Documents/RiskCovry/testng.xml" />
-        <item itemvalue="TestNG.HomeScreenTestCase" />
-        <item itemvalue="TestNG.HomeScreenTestCase.homeScreenTest" />
+        <item itemvalue="TestNG.RiskCovryTestCase" />
+        <item itemvalue="TestNG.RiskCovryTestCase.homePageTest" />
+        <item itemvalue="TestNG.RiskCovryTestCase.homeScreenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643641932817</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;added pageObject and cases&quot;">
+      <created>1643721012231</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643721012232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,41 +238,42 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;added driver manager and testng.xml file&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;added driver manager and testng.xml file&quot;" />
+    <MESSAGE value="&quot;added pageObject and cases&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added pageObject and cases&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="64" key="#Project_Structure" timestamp="1643633710825">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1643633710825" />
-    <state x="387" y="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1643649585319">
+    <state x="387" y="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1643782202094">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="387" y="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1643649585319" />
-    <state x="269" y="2" key="CommitChangelistDialog2" timestamp="1643641932426">
+    <state x="387" y="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1643782202094" />
+    <state x="269" y="2" key="CommitChangelistDialog2" timestamp="1643721011179">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="269" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1643641932426" />
-    <state width="1236" height="212" key="GridCell.Tab.0.bottom" timestamp="1643695512283">
+    <state x="269" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1643721011179" />
+    <state width="1236" height="306" key="GridCell.Tab.0.bottom" timestamp="1643783056389">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643695512283" />
-    <state width="1236" height="212" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1643651313807" />
-    <state width="1236" height="212" key="GridCell.Tab.0.center" timestamp="1643695512282">
+    <state width="1236" height="306" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643783056389" />
+    <state width="1236" height="306" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1643782977116" />
+    <state width="1236" height="306" key="GridCell.Tab.0.center" timestamp="1643783056389">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1643695512282" />
-    <state width="1236" height="212" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1643651313806" />
-    <state width="1236" height="212" key="GridCell.Tab.0.left" timestamp="1643695512281">
+    <state width="1236" height="306" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1643783056388" />
+    <state width="1236" height="306" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1643782977108" />
+    <state width="1236" height="306" key="GridCell.Tab.0.left" timestamp="1643783056388">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1643695512281" />
-    <state width="1236" height="212" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1643651313805" />
-    <state width="1236" height="212" key="GridCell.Tab.0.right" timestamp="1643695512282">
+    <state width="1236" height="306" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1643783056388" />
+    <state width="1236" height="306" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1643782977103" />
+    <state width="1236" height="306" key="GridCell.Tab.0.right" timestamp="1643783056389">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1643695512282" />
-    <state width="1236" height="212" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1643651313807" />
+    <state width="1236" height="306" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1643783056389" />
+    <state width="1236" height="306" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1643782977109" />
     <state width="1236" height="263" key="GridCell.Tab.1.bottom" timestamp="1643648625668">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -257,13 +290,13 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1643648625667" />
-    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1643641945867">
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1643721022721">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1643641945867" />
-    <state x="295" y="231" key="com.intellij.ide.util.TipDialog" timestamp="1643648682654">
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1643721022721" />
+    <state x="295" y="231" key="com.intellij.ide.util.TipDialog" timestamp="1643782743653">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="295" y="231" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1643648682654" />
+    <state x="295" y="231" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1643782743653" />
   </component>
 </project>

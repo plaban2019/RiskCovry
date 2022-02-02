@@ -4,8 +4,7 @@
 <test verbose="2" preserve-order="true" name="RiskCovry UseCase">
 <parameter name="Browser"  value="chrome"/>
     <classes>
-        <class name="TestCase.HomeScreenTestCase"/>
-        <!--<class name="TestCase."/>-->
+        <class name="TestCase.RiskCovryTestCase"/>
     </classes>
 
 </test>
