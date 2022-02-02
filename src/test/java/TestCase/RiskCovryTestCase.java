@@ -18,9 +18,9 @@ public class RiskCovryTestCase extends ExtentReport {
     public void beforeTest(String browser){
         configFileReader = new ConfigFileReader();
         driver = DriverManager.getDriver(browser);
-        driver.manage().window().fullscreen();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get(configFileReader.getApplicationUrl());
+        driver.manage().window().fullscreen();
         Assert.assertEquals(driver.getCurrentUrl(), configFileReader.getApplicationUrl());
     }
 

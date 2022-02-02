@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7d4b0105-8e90-4373-9b5e-1788ea33e294" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/AgeSelectObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/AgeSelectObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RiskCovry_execution_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/RiskCovry_execution_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase/RiskCovryTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase/RiskCovryTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utility/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/DriverManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643783128939</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;adding screencapture into Final commit&quot;">
+      <created>1643783369278</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643783369278</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +249,8 @@
     <MESSAGE value="&quot;added driver manager and testng.xml file&quot;" />
     <MESSAGE value="&quot;added pageObject and cases&quot;" />
     <MESSAGE value="&quot;Final commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Final commit&quot;" />
+    <MESSAGE value="&quot;adding screencapture into Final commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;adding screencapture into Final commit&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="64" key="#Project_Structure" timestamp="1643633710825">
@@ -250,29 +261,29 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="387" y="261" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1643782202094" />
-    <state x="269" y="2" key="CommitChangelistDialog2" timestamp="1643783128463">
+    <state x="269" y="2" key="CommitChangelistDialog2" timestamp="1643783369010">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="269" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1643783128463" />
-    <state width="1236" height="306" key="GridCell.Tab.0.bottom" timestamp="1643783056389">
+    <state x="269" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1643783369010" />
+    <state width="1236" height="306" key="GridCell.Tab.0.bottom" timestamp="1643783964726">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="306" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643783056389" />
+    <state width="1236" height="306" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1643783964726" />
     <state width="1236" height="306" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1643782977116" />
-    <state width="1236" height="306" key="GridCell.Tab.0.center" timestamp="1643783056389">
+    <state width="1236" height="306" key="GridCell.Tab.0.center" timestamp="1643783964711">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="306" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1643783056388" />
+    <state width="1236" height="306" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1643783964711" />
     <state width="1236" height="306" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1643782977108" />
-    <state width="1236" height="306" key="GridCell.Tab.0.left" timestamp="1643783056388">
+    <state width="1236" height="306" key="GridCell.Tab.0.left" timestamp="1643783964696">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="306" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1643783056388" />
+    <state width="1236" height="306" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1643783964696" />
     <state width="1236" height="306" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1643782977103" />
-    <state width="1236" height="306" key="GridCell.Tab.0.right" timestamp="1643783056389">
+    <state width="1236" height="306" key="GridCell.Tab.0.right" timestamp="1643783964720">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="306" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1643783056389" />
+    <state width="1236" height="306" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1643783964720" />
     <state width="1236" height="306" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1643782977109" />
     <state width="1236" height="263" key="GridCell.Tab.1.bottom" timestamp="1643648625668">
       <screen x="0" y="0" width="1280" height="800" />
@@ -290,10 +301,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1643648625667" />
-    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1643783147769">
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1643783373578">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1643783147769" />
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1643783373578" />
     <state x="295" y="231" key="com.intellij.ide.util.TipDialog" timestamp="1643782743653">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

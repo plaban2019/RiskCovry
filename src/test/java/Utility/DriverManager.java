@@ -10,9 +10,7 @@ public class DriverManager {
     public static WebDriver driver;
     public static WebDriver getDriver(String browser){
         if(browser.equals("chrome")){
-            System.setProperty("Webdriver.chrome.driver", "./chromedriver");
-            //WebDriverManager.chromedriver().setup();
-            //WebDriverManager.chromedriver().driverVersion("97.0.4692.99").setup();
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             return driver;
         }else if(browser.equalsIgnoreCase("firefox")){
