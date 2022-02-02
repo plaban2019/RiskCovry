@@ -39,6 +39,7 @@ public class AgeSelectObject extends ExtentReport {
             Thread.sleep(1000);
             if (enterAge.getText().equals("")){
                 test.log(LogStatus.ERROR, "“Invalid age “ has been entered.");
+                test.log(LogStatus.ERROR, test.addScreenCapture(getFailScreenshot(driver, "enterAge")));
                 System.out.println("“Invalid age “ has been entered.");
             }else {
                 test.log(LogStatus.PASS, "test pass");
